@@ -40,6 +40,7 @@ export default function RoadtripPage() {
       bullets={mode.bullets}
       sectionTitle="Local storytelling lane"
       sectionBody="This chapter proves the project can feel more like your taste and less like a generic imported tech site. It holds the family-roadtrip stories, local tone, and warmer palette without losing the premium shell."
+      vibe="roadtrip"
     >
       <div className="grid gap-4 md:grid-cols-3">
         {roadtripCards.map((card) => (

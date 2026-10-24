@@ -26,6 +26,7 @@ export default function LabClientPage() {
       bullets={mode.bullets}
       sectionTitle="Interaction proof"
       sectionBody="This chapter is the systems proof. It shows the project can support component choreography, 3D prep, and the controls that make the whole showcase feel like a real UI system instead of only a polished landing page."
+      vibe="lab"
     >
       <div className="grid gap-4 lg:grid-cols-[0.95fr_1.05fr]">
         <div className="grid gap-4">

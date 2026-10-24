@@ -26,6 +26,7 @@ export default function ShowroomPage() {
       bullets={mode.bullets}
       sectionTitle="Showroom gallery logic"
       sectionBody="This route is where the flagship polished version grows up: stronger prestige framing, cleaner visual hierarchy, and room for the eventual real 360 or hotspot reveal without forcing the whole site into one mood."
+      vibe="showroom"
     >
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
         {chapterCards.map((card) => (

@@ -26,6 +26,7 @@ export default function CockpitPage() {
       bullets={mode.bullets}
       sectionTitle="3D cockpit prep"
       sectionBody="This route is where spatial UI starts to matter. Even before a real car model arrives, the structure is ready for a dashboard-like 3D object, orbit controls, hotspot reveals, and future camera choreography."
+      vibe="cockpit"
     >
       <div className="grid gap-4 lg:grid-cols-[1.1fr_0.9fr]">
         <HeroStage3D accent={carColors[1].accent} modeTitle={mode.title} />
