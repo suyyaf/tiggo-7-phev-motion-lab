@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 
-import ChapterPage from "@/app/components/chapter-page";
 import AssetHeroCard from "@/app/components/asset-hero-card";
+import ChapterPage from "@/app/components/chapter-page";
 import HeroStage3D from "@/app/components/hero-stage-3d";
 import ChapterNextNav from "@/app/components/chapter-next-nav";
+import ViewerShell360 from "@/app/components/viewer-shell-360";
 import { carColors, showcaseModes } from "@/app/lib/showcase-data";
 
 export const metadata: Metadata = {
@@ -45,6 +46,10 @@ export default function CockpitPage() {
             <li>Next upgrade path: hotspot pins, dashboard overlays, and animated mode transitions.</li>
           </ul>
         </div>
+      </div>
+
+      <div className="mt-6">
+        <ViewerShell360 />
       </div>
 
       <div className="mt-6 grid gap-4 lg:grid-cols-2">
