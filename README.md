@@ -59,3 +59,4 @@ npm start
 - proper 360 sprite or video turntable
 - React Three Fiber feature chapter
 - Vercel deployment with GitHub auto-deploy
+- Auto-deploy probe marker: 2026-10-24 15:43 MYT
