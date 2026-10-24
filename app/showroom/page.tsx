@@ -2,6 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 import ChapterPage from "@/app/components/chapter-page";
+import AssetHeroCard from "@/app/components/asset-hero-card";
+import ChapterNextNav from "@/app/components/chapter-next-nav";
 import { chapterCards, featureColumns, heroStats, showcaseModes } from "@/app/lib/showcase-data";
 
 export const metadata: Metadata = {
@@ -64,6 +66,21 @@ export default function ShowroomPage() {
           </div>
         ))}
       </div>
+
+      <div className="mt-6 grid gap-4 lg:grid-cols-2">
+        <AssetHeroCard
+          src="/assets/tiggo/showroom-aura.svg"
+          title="Showroom aura field"
+          caption="A generated premium background asset for launch-style sections, hero frames, and polished chapter transitions."
+        />
+        <AssetHeroCard
+          src="/assets/tiggo/cockpit-hud.svg"
+          title="Camera + cockpit blend"
+          caption="Useful when the premium chapter needs a subtle tech accent without becoming fully dashboard-like."
+        />
+      </div>
+
+      <ChapterNextNav next={{ href: '/cockpit', label: 'Night Drive' }} />
     </ChapterPage>
   );
 }

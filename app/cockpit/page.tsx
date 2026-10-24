@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 
 import ChapterPage from "@/app/components/chapter-page";
+import AssetHeroCard from "@/app/components/asset-hero-card";
 import HeroStage3D from "@/app/components/hero-stage-3d";
+import ChapterNextNav from "@/app/components/chapter-next-nav";
 import { carColors, showcaseModes } from "@/app/lib/showcase-data";
 
 export const metadata: Metadata = {
@@ -44,6 +46,21 @@ export default function CockpitPage() {
           </ul>
         </div>
       </div>
+
+      <div className="mt-6 grid gap-4 lg:grid-cols-2">
+        <AssetHeroCard
+          src="/assets/tiggo/cockpit-hud.svg"
+          title="Cockpit HUD field"
+          caption="A generated scene asset for dashboard-like overlays, drive-mode panels, and a more immersive tech-forward chapter mood."
+        />
+        <AssetHeroCard
+          src="/assets/tiggo/lab-grid.svg"
+          title="Systems grid"
+          caption="Useful as a background or feature panel for future control surfaces, charging diagrams, and the 360 readiness layer."
+        />
+      </div>
+
+      <ChapterNextNav previous={{ href: '/showroom', label: 'Aura Pulse' }} next={{ href: '/roadtrip', label: 'Jom Balik Kampung' }} />
     </ChapterPage>
   );
 }

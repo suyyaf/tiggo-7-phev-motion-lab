@@ -1,0 +1,58 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="188" y1="110" x2="1388" y2="798" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08131F"/>
+      <stop offset="0.52" stop-color="#07101B"/>
+      <stop offset="1" stop-color="#050A12"/>
+    </linearGradient>
+    <radialGradient id="mint" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(420 220) rotate(90) scale(190 220)">
+      <stop stop-color="#53F0D6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#53F0D6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1102 650) rotate(90) scale(240 300)">
+      <stop stop-color="#79AFFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#79AFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <ellipse cx="420" cy="220" rx="220" ry="190" fill="url(#mint)"/>
+  <ellipse cx="1102" cy="650" rx="300" ry="240" fill="url(#blue)"/>
+  <g opacity="0.65">
+    <path d="M164 162H1436" stroke="white" stroke-opacity="0.08"/>
+    <path d="M164 738H1436" stroke="white" stroke-opacity="0.08"/>
+    <path d="M164 450H1436" stroke="white" stroke-opacity="0.1"/>
+    <path d="M220 180V720" stroke="white" stroke-opacity="0.05"/>
+    <path d="M390 180V720" stroke="white" stroke-opacity="0.05"/>
+    <path d="M560 180V720" stroke="white" stroke-opacity="0.05"/>
+    <path d="M730 180V720" stroke="white" stroke-opacity="0.05"/>
+    <path d="M900 180V720" stroke="white" stroke-opacity="0.05"/>
+    <path d="M1070 180V720" stroke="white" stroke-opacity="0.05"/>
+    <path d="M1240 180V720" stroke="white" stroke-opacity="0.05"/>
+  </g>
+  <g>
+    <rect x="170" y="154" width="268" height="46" rx="23" fill="white" fill-opacity="0.05" stroke="white" stroke-opacity="0.12"/>
+    <text x="204" y="183" fill="#D2FFF8" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="0.22em">INTERACTION LAB</text>
+  </g>
+  <g>
+    <rect x="222" y="294" width="274" height="140" rx="28" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.10"/>
+    <text x="254" y="334" fill="#79AFFF" font-family="Inter, Arial, sans-serif" font-size="16" letter-spacing="0.18em">BUTTON STACK</text>
+    <rect x="254" y="360" width="210" height="24" rx="12" fill="#7FB1FF" fill-opacity="0.36"/>
+    <rect x="254" y="398" width="156" height="18" rx="9" fill="#53F0D6" fill-opacity="0.28"/>
+  </g>
+  <g>
+    <rect x="554" y="294" width="492" height="140" rx="28" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.10"/>
+    <text x="588" y="334" fill="#D2FFF8" font-family="Inter, Arial, sans-serif" font-size="16" letter-spacing="0.18em">MODE MATRIX</text>
+    <path d="M590 380H1010" stroke="#7FB1FF" stroke-opacity="0.34" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="744" cy="380" r="28" fill="#F4FAFF"/>
+    <circle cx="744" cy="380" r="46" stroke="#53F0D6" stroke-opacity="0.26" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="1078" y="294" width="296" height="140" rx="28" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.10"/>
+    <text x="1110" y="334" fill="#79AFFF" font-family="Inter, Arial, sans-serif" font-size="16" letter-spacing="0.18em">3D SLOT</text>
+    <path d="M1130 398L1214 358L1298 398L1214 438L1130 398Z" fill="#8AD0FF" fill-opacity="0.16" stroke="#8AD0FF" stroke-opacity="0.45"/>
+  </g>
+  <g>
+    <text x="166" y="704" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-0.05em">Reusable motion system</text>
+    <text x="166" y="760" fill="#B6CBDE" font-family="Inter, Arial, sans-serif" font-size="28">Controls, widgets, transitions, and future 360 architecture</text>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="220" y1="140" x2="1290" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1730"/>
+      <stop offset="0.52" stop-color="#0A1020"/>
+      <stop offset="1" stop-color="#060B14"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(828 308) rotate(90) scale(318 500)">
+      <stop stop-color="#A8C9FF" stop-opacity="0.95"/>
+      <stop offset="0.45" stop-color="#67A7FF" stop-opacity="0.44"/>
+      <stop offset="1" stop-color="#67A7FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1118 220) rotate(90) scale(206 226)">
+      <stop stop-color="#FF73CE" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#FF73CE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(624 620) rotate(90) scale(190 340)">
+      <stop stop-color="#44F0D5" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#44F0D5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="510" y1="360" x2="1112" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8AB4FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#C6DDFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#8AB4FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1440" height="740" rx="36" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <g opacity="0.38">
+    <path d="M160 760H1440" stroke="white" stroke-opacity="0.08"/>
+    <path d="M160 680H1440" stroke="white" stroke-opacity="0.05"/>
+    <path d="M160 600H1440" stroke="white" stroke-opacity="0.05"/>
+    <path d="M160 520H1440" stroke="white" stroke-opacity="0.05"/>
+    <path d="M160 440H1440" stroke="white" stroke-opacity="0.05"/>
+    <path d="M160 360H1440" stroke="white" stroke-opacity="0.08"/>
+    <path d="M240 160V760" stroke="white" stroke-opacity="0.05"/>
+    <path d="M400 160V760" stroke="white" stroke-opacity="0.05"/>
+    <path d="M560 160V760" stroke="white" stroke-opacity="0.05"/>
+    <path d="M720 160V760" stroke="white" stroke-opacity="0.08"/>
+    <path d="M880 160V760" stroke="white" stroke-opacity="0.05"/>
+    <path d="M1040 160V760" stroke="white" stroke-opacity="0.05"/>
+    <path d="M1200 160V760" stroke="white" stroke-opacity="0.05"/>
+  </g>
+  <ellipse cx="828" cy="308" rx="500" ry="318" fill="url(#glow1)"/>
+  <ellipse cx="1118" cy="220" rx="226" ry="206" fill="url(#glow2)"/>
+  <ellipse cx="624" cy="620" rx="340" ry="190" fill="url(#glow3)"/>
+  <rect x="510" y="355" width="602" height="10" rx="5" fill="url(#line)"/>
+  <ellipse cx="812" cy="650" rx="300" ry="54" fill="#8DC0FF" fill-opacity="0.18"/>
+  <ellipse cx="812" cy="650" rx="220" ry="30" fill="#8DC0FF" fill-opacity="0.18"/>
+  <g opacity="0.72">
+    <rect x="160" y="154" width="214" height="42" rx="21" fill="white" fill-opacity="0.05" stroke="white" stroke-opacity="0.1"/>
+    <text x="192" y="181" fill="#D8E6FF" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="0.24em">SHOWROOM AURA</text>
+  </g>
+  <g opacity="0.64">
+    <text x="173" y="688" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="700" letter-spacing="-0.05em">Premium launch field</text>
+    <text x="173" y="744" fill="#B3C5E9" font-family="Inter, Arial, sans-serif" font-size="28">Disciplined glow, clean hierarchy, prestige framing</text>
+  </g>
+</svg>

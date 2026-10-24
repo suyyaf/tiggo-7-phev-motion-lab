@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 
 import ChapterPage from "@/app/components/chapter-page";
+import AssetHeroCard from "@/app/components/asset-hero-card";
+import ChapterNextNav from "@/app/components/chapter-next-nav";
 import { showcaseModes } from "@/app/lib/showcase-data";
 
 export const metadata: Metadata = {
@@ -55,6 +57,21 @@ export default function RoadtripPage() {
           </div>
         ))}
       </div>
+
+      <div className="mt-6 grid gap-4 lg:grid-cols-2">
+        <AssetHeroCard
+          src="/assets/tiggo/roadtrip-sunrise.svg"
+          title="Roadtrip sunrise field"
+          caption="A warmer scene asset for family-roadtrip storytelling, campaign stills, and the more local chapter atmosphere."
+        />
+        <AssetHeroCard
+          src="/assets/tiggo/showroom-aura.svg"
+          title="Soft premium carry-over"
+          caption="Lets the roadtrip route stay premium enough while still moving into a friendlier, more local mood."
+        />
+      </div>
+
+      <ChapterNextNav previous={{ href: '/cockpit', label: 'Night Drive' }} next={{ href: '/lab', label: 'Hybrid Command' }} />
     </ChapterPage>
   );
 }

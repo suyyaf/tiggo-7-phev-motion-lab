@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 
+import AssetHeroCard from "@/app/components/asset-hero-card";
+import ChapterNextNav from "@/app/components/chapter-next-nav";
 import ChapterPage from "@/app/components/chapter-page";
 import HeroStage3D from "@/app/components/hero-stage-3d";
 import { carColors, microInteractions, showcaseModes, threeDPrep } from "@/app/lib/showcase-data";
@@ -117,6 +119,21 @@ export default function LabClientPage() {
           </ul>
         </div>
       </div>
+
+      <div className="mt-6 grid gap-4 lg:grid-cols-2">
+        <AssetHeroCard
+          src="/assets/tiggo/lab-grid.svg"
+          title="Systems grid asset"
+          caption="A generated reusable background for control surfaces, mode cards, HUD panels, and 360-readiness sections."
+        />
+        <AssetHeroCard
+          src="/assets/tiggo/cockpit-hud.svg"
+          title="Tech overlay asset"
+          caption="Works as a stronger motion-lab accent when the interface needs more dashboard or telemetry character."
+        />
+      </div>
+
+      <ChapterNextNav previous={{ href: '/roadtrip', label: 'Jom Balik Kampung' }} next={{ href: '/showroom', label: 'Aura Pulse' }} />
     </ChapterPage>
   );
 }
